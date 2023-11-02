@@ -9,13 +9,13 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class RandomTestData {
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         System.out.println(getRandomGender());
         System.out.println(getRandomInt(1, 30));
         System.out.println(getRandomHobby());
         System.out.println(getRandomPicture());
         System.out.println(getRandomSubject());
-    }
+    }*/
 
     Faker faker = new Faker(new Locale("en-GB"));
     private Map<String, String[]> stateAndCity = new HashMap<>();
